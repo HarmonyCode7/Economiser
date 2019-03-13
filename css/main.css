@@ -28,15 +28,31 @@ body{
     padding: 0.5rem;
 }
 nav{
-    color: rgb(243, 239, 5);
+    color: #fff;
     width: 100%;
-    height: auto;
+    height: 0;
     font-size: 1.5rem;
-    padding: 1rem .4rem;
-    background-color: #983DCC;
+    background-color: #248e38;
     text-align: center;
-    display:none;
+    -webkit-transition: all 2s;
+    transition: all 2s;
 }
+nav ul{
+    font-size: 2rem;
+}
+nav  #close
+{
+    float: right;
+    font-size: 2rem;
+}
+.shownav
+{
+    padding: 1rem 2rem;
+    height: 200px;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+}
+
 section
 {
     /*background-image: url("/resources/accounting-bill-black-53621.jpg");
